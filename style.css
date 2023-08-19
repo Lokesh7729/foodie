@@ -67,7 +67,7 @@ nav {
   outline: none;
   border: none;
   background: none;
-  width: 18vw;
+  /* width: 18vw; */
 }
 .search i {
   font-size: 1vw;
