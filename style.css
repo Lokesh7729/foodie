@@ -88,30 +88,41 @@ nav {
   /* background-color: #ff8000; */
   padding: 9vw;
   justify-content: center;
-  gap: 2vh;
+  gap: 3vh;
 }
-.left h1{
-    font-size: 5vw;
-    color: #333;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+.left h1 {
+  font-size: 5vw;
+  color: #333;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
-.left h1:nth-child(2){
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-weight: 300;
+.left h1:nth-child(2) {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: 300;
 }
-.left p{
-width: 25vw;
-color: #777777;
+.left p {
+  width: 25vw;
+  color: #aeaeae;
 }
-.left .search{
-     width: 25vw;
-     justify-content: space-between;
-     padding-right: 1vw; 
-
+.left .search {
+  width: 25vw;
+  justify-content: space-between;
+  padding: 1.5vw 1vw;
 }
-.left .search input{
-    width: 25vw;
+.left .search input {
+  width: 25vw;
 }
-.left .search i{
-    color: #ff8000bd;
+.left .search i {
+  color: #ff8000bd;
+}
+.left button {
+  width: 8vw;
+  padding: 1vw 2vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ff8000;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
