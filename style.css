@@ -53,14 +53,14 @@ nav {
   color: #ff8000;
 }
 .search {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 12vw;
-  height: 5vh;
-  background-color: #fff;
-  border-radius: 5px;
-  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 12vw;
+    height: 5vh;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 .search input {
   padding: 0.5vw 1vw;
