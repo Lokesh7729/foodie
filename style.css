@@ -201,6 +201,7 @@ width: 33vw;
     height: 30%;
     width: 90%;
     display: flex;
+    flex-wrap: wrap;
     padding-top:20px;
     padding-left: 30px; 
 }
@@ -218,7 +219,8 @@ width: 33vw;
     justify-content: center;
     width: 90%;
     padding-top:20px;
-    padding-left: 30px; 
+    padding-left: 30px;
+    flex-wrap: wrap; 
     
     font-weight: 100;
 }
@@ -232,6 +234,145 @@ width: 33vw;
     color: #000000c6;
     letter-spacing: .2px;
    
+}
+.ri-menu-3-line{
+  display: none;
+}
+
+.resp-nav{
+  display: none;
+}
+
+/* Responsiveness */
+
+@media (max-width:500px) {
+    .left-nav a{
+        font-size: 10vw;
+
+    }
+    #main{
+      height: auto;
+      min-height: 100vh;
+    }
+    nav{
+      justify-content: space-between;
+      padding: 0vw 10vw;
+      align-items: center;
+      
+    }
+    .center-nav{
+      display: none;
+      
+    }
+    .right-nav{
+      display: initial;
+      display: none;
+    
+    }
+    .ri-menu-3-line{
+      display: initial;
+      font-size: 5vw;
+    }
+    .resp-nav{
+      display: initial;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+      top: 0;
+      right: -100%;
+      position: absolute;
+      gap: 5vh;
+      width: 100%;
+      height: 100%;
+      background-color: #ffff;
+      z-index: 9;
+      transition: all cubic-bezier(0.19, 1, 0.22, 1)1s;
+    }
+    .resp-nav a{
+      text-decoration: none;
+      font-size: 6vw;
+      color: #333;
+
+    }
+    .resp-nav i{
+      position: absolute;
+      top: 3%;
+      font-size: 7vw;
+      right: 8%;
+
+    }
+    .main-content{
+      height: auto;
+      min-height: 100vh;
+      flex-direction: column-reverse;
+      
+    }
+    .right{
+      width: 100%;
+      height: 60vh;
+    
+    }
+    #background{
+      width: 67vw;
+    }
+    #all-plate{
+      width: 50vw;
+      height: 50vw;
+    }
+    #image-one{
+      width: 40vw;
+      right: -50%;
+    }
+    #image-three{
+      width: 33vw;
+      left: -40%;
+      top: -15%;
+    }
+    #image-two{
+      width: 40vw;
+      bottom: -50%;
+      right: 44%;
+    }
+    #glass{
+      width: 45%;
+      right: -8%;
+      width: 58vw;
+      height: 16vh;
+
+    }
+    .left{
+      width: 100%;
+      height: 60vh;
+      gap: 1vh;
+  }
+  .left h1{
+      font-size: 10vw;
+  }
+  .left p{
+      width: 70vw;
+      font-size: 4vw;
+      margin-top: 3vh;
+      margin-bottom: 3vh;
+  }
+  .left .search{
+      padding: 1vw 2vw;
+      width: 70vw;
+      height: 10vw;
+  }
+  .left .search input{
+      width: 70vw;
+  }
+  .left .search i{
+      font-size: 5vw;
+  }
+  .left button{
+      margin-top: 1.5vh;
+      width: 30vw;
+      height: 10vw;
+  }
+   
+
 }
 
 
